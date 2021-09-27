@@ -10,8 +10,8 @@ def read_paragraph_element(element):
 
 
 def read_strucutural_elements(elements):
-    """Recurses through a list of Structural Elements to read a document's text where text may be
-        in nested elements.
+    """Recurses through a list of Structural Elements to read a document's text
+       where text may be in nested elements.
         Args:
             elements: a list of Structural Elements.
     """
@@ -22,8 +22,8 @@ def read_strucutural_elements(elements):
             for elem in elements:
                 text += read_paragraph_element(elem)
         elif 'table' in value:
-            # The text in table cells are in nested Structural Elements and tables may be
-            # nested.
+            # The text in table cells are in nested Structural Elements and
+            # tables may be nested.
             table = value.get('table')
             for row in table.get('tableRows'):
                 cells = row.get('tableCells')

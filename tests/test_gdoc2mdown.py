@@ -5,7 +5,7 @@
 
 import unittest
 
-from gdoc2mdown import gdoc2mdown
+# from gdoc2mdown import gdoc2mdown
 
 
 class TestGdoc2mdown(unittest.TestCase):
