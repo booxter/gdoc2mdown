@@ -11,7 +11,6 @@ Welcome to Gdoc2Mdown's documentation!
    modules
    contributing
    authors
-   history
 
 Indices and tables
 ==================
